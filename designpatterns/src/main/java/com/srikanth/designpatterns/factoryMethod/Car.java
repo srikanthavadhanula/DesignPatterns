@@ -1,6 +1,6 @@
 package com.srikanth.designpatterns.factoryMethod;
 
-public class Car extends Vehicle{
+public class Car implements Vehicle{
     @Override
     public int fetchSeats() {
         return 4;

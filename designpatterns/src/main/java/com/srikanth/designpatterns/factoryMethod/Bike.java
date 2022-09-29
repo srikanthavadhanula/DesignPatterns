@@ -1,7 +1,6 @@
 package com.srikanth.designpatterns.factoryMethod;
 
-public class Bike extends Vehicle {
-
+public class Bike implements Vehicle {
     @Override
     public int fetchSeats() {
         return 1;
